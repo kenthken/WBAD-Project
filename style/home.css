@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Almarai;
+    src: url(../fonts/Almarai-Regular.ttf);
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(../fonts/AlegreyaSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: Alumni;
+    src: url(../fonts/AlumniSans-Bold.ttf);
+}
+
+p {
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content {
+    height: 680px;
+    width: 100%;
+    background-image: url(../assets/1061827\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 45%;
+    height: 370px;
+
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+.right {
+    width: 60%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-left: 4%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+
+}
+
+.title h1 {
+    color: white;
+    font-family: Alegreya;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+}
+
+.new {
+    background-color: red;
+    width: 17%;
+    height: 75%;
+    margin-left: 5%;
+    border-radius: 20px;
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: #B7B3B3;
+    font-size: 16px;
+    width: 90%;
+    font-weight: normal;
+    line-height: 22px;
+    font-family: Almarai;
+}
+
+.rating {
+    width: 50%;
+    height: 15%;
+
+    display: flex;
+}
+
+.rleft {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rright {
+    padding-top: 5%;
+}
+
+.rrbot p {
+    color: #BEBEBE;
+    font-size: 15px;
+    margin: 0;
+}
+
+.card button {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 60%;
+    height: 10%;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Inter;
+    color: #3599A8;
+    border-color: orange;
+    border: 1px solid #1C4146;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.webtoon {
+    color: white;
+    font-family: Alumni;
+    font-size: 32px;   
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia img {
+    padding: 10px 10px;
+}
+
+.menufooter a {
+    text-decoration: none;
+    color: #838383;
+    font-size: 13px;
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.menufooter {
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
