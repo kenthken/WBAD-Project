@@ -219,3 +219,55 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.menulist{
+    position: relative;
+    display: inline-block;
+}
+
+.menulist-btn{
+    background-color:inherit;
+    color: white;
+    padding: 16px;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    font-family: Inter;
+}
+
+/* select{
+    border: none;
+    background-color: inherit;
+    color: white;
+    text-decoration: solid;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: bold;
+    border-radius: 0;
+} */
+
+/* .optionDrop{
+    color: white;
+    background-color: #404040;
+} */
+
+.optionDrop {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .optionDrop a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: #404040;
+  }
+
+.optionDrop a:hover {color: rgb(145, 97, 255);}
+/* ntr ganti lg */
+
+.menulist:hover .optionDrop {display: block;}
