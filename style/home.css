@@ -4,6 +4,8 @@ body {
     background-color: #323232;
 }
 
+
+
 @font-face {
     font-family: Inter;
     src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
@@ -177,6 +179,8 @@ p {
 
 .footer {
     width: 100%;
+    position: relative;
+    bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: black;
@@ -271,3 +275,49 @@ p {
 /* ntr ganti lg */
 
 .menulist:hover .optionDrop {display: block;}
+
+.center{
+    
+    width: 80%;
+    margin: auto;
+
+}
+
+.center h1{
+    color: white;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.card1{
+    width: 17%;
+    height: 380px;
+    
+}
+
+.card1 img{
+    
+}
+
+.author{
+    color: #838383;
+    font-family: Almarai;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.title{
+    color: white;
+    font-family: Almarai;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.wrap{
+    display: flex;
+    
+}
