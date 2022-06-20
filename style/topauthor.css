@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Annie;
+    src: url(../fonts/AnnieUseYourTelescope-Regular.ttf);
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: relative;
+}
+
+.menulist{
+    position: relative;
+    display: inline-block;
+}
+
+.menulist-btn{
+    background-color:inherit;
+    color: white;
+    padding: 16px;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    font-family: Inter;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.optionDrop {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .optionDrop a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: #404040;
+  }
+
+.optionDrop a:hover {color: rgb(145, 97, 255);}
+/* ntr ganti lg */
+
+.menulist:hover .optionDrop {display: block;}
+
+.content{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.content h1{
+    color: white;
+    font-family: Annie;
+}
+
+.content img{
+    width: 100%;
+    margin-top: 13px;
+}
+
+.content input{
+    background-color: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    color: white;
+   
+    
+}

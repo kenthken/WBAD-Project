@@ -4,7 +4,12 @@ body {
     background-color: #323232;
 }
 
-
+.slide {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
 
 @font-face {
     font-family: Inter;
@@ -57,17 +62,54 @@ p {
 .content {
     height: 680px;
     width: 100%;
-    background-image: url(../assets/1061827\ 3.png);
+
+}
+
+.auto1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/1061827\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.auto2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/666312\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* transition */
+
+.auto {
+    animation-name: auto;
+    animation-duration: 1.5s;
+}
+
+@keyframes auto {
+    from {
+        opacity: 4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+.screen{
+    
+    width: 100%;
 }
 
 .card {
     width: 45%;
     height: 370px;
-
     position: absolute;
-    margin-top: 230px;
+    top: 180px;
     margin-left: 120px;
     display: flex;
 }
@@ -191,7 +233,7 @@ p {
 .webtoon {
     color: white;
     font-family: Alumni;
-    font-size: 32px;   
+    font-size: 32px;
 }
 
 .socialmedia {
@@ -224,13 +266,13 @@ p {
     justify-content: center;
 }
 
-.menulist{
+.menulist {
     position: relative;
     display: inline-block;
 }
 
-.menulist-btn{
-    background-color:inherit;
+.menulist-btn {
+    background-color: inherit;
     color: white;
     padding: 16px;
     font-size: 13px;
@@ -260,30 +302,35 @@ p {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .optionDrop a {
+}
+
+.optionDrop a {
     color: white;
     text-decoration: none;
     display: block;
     background-color: #404040;
-  }
+}
 
-.optionDrop a:hover {color: rgb(145, 97, 255);}
+.optionDrop a:hover {
+    color: rgb(145, 97, 255);
+}
+
 /* ntr ganti lg */
 
-.menulist:hover .optionDrop {display: block;}
+.menulist:hover .optionDrop {
+    display: block;
+}
 
-.center{
-    
+.center {
+
     width: 80%;
     margin: auto;
 
 }
 
-.center h1{
+.center h1 {
     color: white;
     font-family: Inter;
     font-size: 25px;
@@ -292,24 +339,22 @@ p {
     margin-bottom: 30px;
 }
 
-.card1{
+.card1 {
     width: 17%;
     height: 380px;
-    
+
 }
 
-.card1 img{
-    
-}
+.card1 img {}
 
-.author{
+.author {
     color: #838383;
     font-family: Almarai;
     font-size: 16px;
     margin-top: 10px;
 }
 
-.title{
+.title {
     color: white;
     font-family: Almarai;
     font-size: 20px;
@@ -317,7 +362,7 @@ p {
     margin-top: 5px;
 }
 
-.wrap{
+.wrap {
     display: flex;
-    
+
 }
